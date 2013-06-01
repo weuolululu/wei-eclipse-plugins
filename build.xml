@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="project" default="repo">
+ <target name="repo">
+  <property name="working.dir" value="/home/wei/eclipse_plugins_repo" />
+  <p2.mirror destination="file:/${working.dir}" description="My Local eclipse plugin repo" verbose="true">
+   <source>
+    <repository name="color-theme" location="http://eclipse-color-theme.github.com/update" />
+    <repository name="egit" location="http://download.eclipse.org/egit/updates" />
+    <repository name="pydev" location="http://pydev.org/updates" />
+    <repository name="m2" location="http://download.eclipse.org/technology/m2e/releases" />
+   </source>
+   <slicingOptions includeFeatures="true" followStrict="true" latestVersionOnly="true" />
+  </p2.mirror>
+ </target>
+</project>
