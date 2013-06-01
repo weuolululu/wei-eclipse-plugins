@@ -4,12 +4,18 @@
   <property name="working.dir" value="/home/wei/eclipse_plugins_repo" />
   <p2.mirror destination="file:/${working.dir}" description="My Local eclipse plugin repo" verbose="true">
    <source>
+   	<repository name="anyedit" location="http://andrei.gmxhome.de/eclipse/" />
+   	<repository name="checkstyle" location="http://eclipse-cs.sf.net/update/" />
+   	<repository name="eclispe-wiki" location="http://www.stateofflow.com/UpdateSite" />
+    <repository name="xtend" location="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/milestones" />
+   	<repository name="jeeeyul" location="https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite" />
     <repository name="color-theme" location="http://eclipse-color-theme.github.com/update" />
     <repository name="egit" location="http://download.eclipse.org/egit/updates" />
     <repository name="pydev" location="http://pydev.org/updates" />
     <repository name="m2" location="http://download.eclipse.org/technology/m2e/releases" />
+    <repository name="MonjaDB" location="http://www.jumperz.net/update/" />
    </source>
    <slicingOptions includeFeatures="true" followStrict="true" latestVersionOnly="true" />
   </p2.mirror>
  </target>
-</project>
+</project>	
